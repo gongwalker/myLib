@@ -1,0 +1,24 @@
+{
+  "name": "your-vendor-name/my-library",
+  "description": "A brief description of your library",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "YourNamespace\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "gongwen",
+      "email": "your-email@example.com"
+    }
+  ]
+}
